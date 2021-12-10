@@ -1,0 +1,25 @@
+.ordem{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+
+}
+.sub-ordem{
+    display: flex;
+    flex-direction: column; 
+}
+.input{ 
+    border: 1px solid gray;
+    width: 21vw;
+    height: 2vw;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.buscar{
+    background-color: #2196F3;
+    color: white;
+    border-bottom: 3px solid #0D47A1;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.font{
+    font-family: Verdana;
+}
+.titulo{
+    color: white;
+    text-align: center; 
+    cursor: default;
+}
+.subtitulo{
+    color: white;
+    font-size: 13px;
+    text-align: center; 
+    cursor: default;
+}
