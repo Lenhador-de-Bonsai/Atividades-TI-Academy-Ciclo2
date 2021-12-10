@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/cabeçalho.css">
+        <link rel="stylesheet" href="css/forms.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body class="font">
+        <header class="cabecalho">
+            <div class="flex-pai">
+                <div class="flex-filho1">
+                    <h1 class="titulo">ME ACHA!</h1>
+                    <p class="subtitulo">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</p>
+                </div>
+                <div class="flex-filho2">
+                    <i class="material-icons" id="tamanhoLogo">travel_explore</i> 
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="ordem">
+                <form action=""></form> 
+                    <div class="sub-ordem">
+                        <label for="cep">Cep</label>
+                        <input name="cep" id="cep" type="text" class="input">
+                        
+                        <label for="rua">Rua</label>
+                        <input name="rua" type="text" class="input" disabled>
+                        
+                        <label for="bairro">Bairro</label>
+                        <input name="bairro" type="text" class="input" disabled>
+                        
+                        <label for="cidade">Cidade</label>
+                        <input name="cidade" type="text" class="input" disabled>
+                        
+                        <label for="estado">Estado</label>
+                        <input  name="estado" type="text" class="input" disabled>
+                        
+                        <input type="submit" name="botaoBuscar" id="botaoBuscar" class="buscar" value="BUSCAR">
+                    </div>
+                </form> 
+            </div>    
+        </main>
+    </body>
+    <script src="javascript/script.js"></script>
+</html>
